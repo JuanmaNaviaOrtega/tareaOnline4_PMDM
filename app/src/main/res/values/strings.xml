@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tareaOnline4_PMDM</string>
+    <!-- styles.xml -->
+    <style name="RatingBarStyle" parent="Base.Widget.AppCompat.RatingBar">
+        <item name="colorAccent">#FFA500</item> <!-- Naranja -->
+    </style>
+
+</resources>

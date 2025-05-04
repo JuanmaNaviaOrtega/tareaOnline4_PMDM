@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background2">
+
+    <TextView
+        android:id="@+id/animationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valoración de paisajes"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/animationText"
+        android:visibility="gone" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="10"
+        android:stepSize="1.0"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+</RelativeLayout>

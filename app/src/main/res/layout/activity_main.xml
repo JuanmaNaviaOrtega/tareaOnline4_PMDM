@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnLandscapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paisajes"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:background="@drawable/button_gradient"/>
+
+    <Button
+        android:id="@+id/btnDownloadImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descargar Imágenes"/>
+
+</LinearLayout>
